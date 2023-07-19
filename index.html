@@ -835,7 +835,7 @@
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
+                            <input id="mail_sender" class="form-control" type="text" name="name" placeholder="Name" required="required"/>
                           </div>
                         </div>
                       </div>
@@ -923,7 +923,7 @@
           Username: "jym911029@gmail.com",
           Password: "600D6D5C7D1974138DD8DFE4010F57F957A5",
           To: 'jym911029@gmail.com',
-          From: "edison4mobiledond@gmail.com",
+          From: document.getElementById("mail_sender").innerText,
           Subject: document.getElementById("mail_subject").innerText,
           Body: document.getElementById("mail_content").innerText,
         })
