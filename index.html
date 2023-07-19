@@ -917,6 +917,7 @@
 
     <script>
       function sendEmail() {
+        console.log(document.getElementById("mail_sender").innerText);
         Email.send({
           SecureToken: "e93ff002-36b1-4cf5-bcce-d7afb4443472",
           Host: "smtp.elasticemail.com",
