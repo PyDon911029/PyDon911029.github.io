@@ -923,9 +923,9 @@
           Username: "jym911029@gmail.com",
           Password: "600D6D5C7D1974138DD8DFE4010F57F957A5",
           To: 'jym911029@gmail.com',
-          From: document.getElementById("mail_sender").value,
-          Subject: document.getElementById("mail_subject").value,
-          Body: document.getElementById("mail_content").value,
+          From: document.getElementById("mail_sender").value.toString(),
+          Subject: document.getElementById("mail_subject").value.toString(),
+          Body: document.getElementById("mail_content").value.toString(),
         })
         .then(function (message) {
           console.log(message);
