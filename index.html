@@ -830,7 +830,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="card-body">
-                    <form action="https://formspree.io/your@email.com" method="POST">
+                    <form>
                       <div class="p pb-3"><strong>Feel free to contact me </strong></div>
                       <div class="row mb-3">
                         <div class="col">
@@ -866,24 +866,6 @@
                         </div>
                       </div>
                     </form>
-                    <script type="text/javascript">
-                      function sendEmail() {
-                        Email.send({
-                          SecureToken: "e93ff002-36b1-4cf5-bcce-d7afb4443472",
-                          Host: "smtp.elasticemail.com",
-                          Username: "jym911029@gmail.com",
-                          Password: "600D6D5C7D1974138DD8DFE4010F57F957A5",
-                          To: 'jym911029@gmail.com',
-                          From: "jym911029@gmail.com",
-                          Subject: document.getElementById("mail_subject").innerText,
-                          Body: document.getElementById("mail_content").innerText,
-                        })
-                        .then(function (message) {
-                          console.log(message);
-                          alert("mail sent successfully")
-                        });
-                      }
-                    </script>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -932,5 +914,23 @@
     <script src="js/aos.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
     <script src= "https://smtpjs.com/v3/smtp.js" />
+    <script type="text/javascript">
+      function sendEmail() {
+        Email.send({
+          SecureToken: "e93ff002-36b1-4cf5-bcce-d7afb4443472",
+          Host: "smtp.elasticemail.com",
+          Username: "jym911029@gmail.com",
+          Password: "600D6D5C7D1974138DD8DFE4010F57F957A5",
+          To: 'jym911029@gmail.com',
+          From: "jym911029@gmail.com",
+          Subject: document.getElementById("mail_subject").innerText,
+          Body: document.getElementById("mail_content").innerText,
+        })
+        .then(function (message) {
+          console.log(message);
+          alert("mail sent successfully")
+        });
+      }
+    </script>
   </body>
 </html>
