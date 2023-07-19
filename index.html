@@ -917,17 +917,15 @@
 
     <script>
       function sendEmail() {
-        console.log("sdlkjlsdjflsdjfldskj");
-        console.log(document.getElementById("mail_sender").innerText);
         Email.send({
           SecureToken: "e93ff002-36b1-4cf5-bcce-d7afb4443472",
           Host: "smtp.elasticemail.com",
           Username: "jym911029@gmail.com",
           Password: "600D6D5C7D1974138DD8DFE4010F57F957A5",
           To: 'jym911029@gmail.com',
-          From: document.getElementById("mail_sender").innerText,
-          Subject: document.getElementById("mail_subject").innerText,
-          Body: document.getElementById("mail_content").innerText,
+          From: document.getElementById("mail_sender").value,
+          Subject: document.getElementById("mail_subject").value,
+          Body: document.getElementById("mail_content").value,
         })
         .then(function (message) {
           console.log(message);
