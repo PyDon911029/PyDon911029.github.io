@@ -1,0 +1,2 @@
+var about_title = "Hello! I am Quan Ming. Web Developer, Mobile Developer and Blockchain & AI developer.";
+var about_content = "I am a project manager & senior Web Developer with over 9+ years of experience in web and Mobile and Blockchain including agency work, e-commerce, publishing, and sports betting.<br/> Client satisfaction is my topmost priority and this is the hallmark of our success.<br/> Thanks.<br>Regards";
