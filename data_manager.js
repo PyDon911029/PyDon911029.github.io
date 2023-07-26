@@ -132,7 +132,7 @@ for (let i = 0; i < education.length; i++) {
                         <div class='col-md-9' data-aos='fade-left' data-aos-offset='50' data-aos-duration='500'>\
                             <div class='card-body'>\
                                 <div class='h5'>" + education[i].degree + "</div>\
-                                <p class='category'>" + education[i].company + "</p>\
+                                <p class='category'>" + education[i].university + "</p>\
                                 <p>" + education[i].content + "</p>\
                             </div>\
                         </div>\
