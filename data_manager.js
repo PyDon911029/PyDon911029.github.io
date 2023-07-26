@@ -91,8 +91,57 @@ for (let i = 0; i < skill_set.length; i++) {
 // portfolio
 
 // work experience
+for (let i = 0; i < experience.length; i++) {
+    var experience_tmp = document.getElementById("_experience").innerHTML;
+    if (experience[i].visible) {
+        experience_tmp = experience_tmp 
+            +   "<div class='card'>\
+                    <div class='row'>\
+                        <div class='col-md-3 bg-primary' data-aos='fade-right' data-aos-offset='50' data-aos-duration='500'>\
+                            <div class='card-body cc-experience-header'>\
+                                <p>" + experience[i].period + "</p>\
+                                <div class='h5'>" + experience[i].company + "</div>\
+                            </div>\
+                        </div>\
+                        <div class='col-md-9' data-aos='fade-left' data-aos-offset='50' data-aos-duration='500'>\
+                            <div class='card-body'>\
+                                <div class='h5'>" + experience[i].role + "</div>\
+                                <p>" + experience[i].content + "</p>\
+                            </div>\
+                        </div>\
+                    </div>\
+                </div>"
+        document.getElementById("_experience").innerHTML = experience_tmp;
+    }
+    
+}
 
 // education
+for (let i = 0; i < education.length; i++) {
+    var education_tmp = document.getElementById("_education").innerHTML;
+    if (education[i].visible) {
+        education_tmp = education_tmp 
+            +   "<div class='card'>\
+                    <div class='row'>\
+                        <div class='col-md-3 bg-primary' data-aos='fade-right' data-aos-offset='50' data-aos-duration='500'>\
+                            <div class='card-body cc-education-header'>\
+                                <p>" + education[i].period + "</p>\
+                                <div class='h5'>" + education[i].level + "</div>\
+                            </div>\
+                        </div>\
+                        <div class='col-md-9' data-aos='fade-left' data-aos-offset='50' data-aos-duration='500'>\
+                            <div class='card-body'>\
+                                <div class='h5'>" + education[i].degree + "</div>\
+                                <p class='category'>" + education[i].company + "</p>\
+                                <p>" + education[i].content + "</p>\
+                            </div>\
+                        </div>\
+                    </div>\
+                </div>"
+        document.getElementById("_education").innerHTML = education_tmp;
+    }
+    
+}
 
 // reference
 

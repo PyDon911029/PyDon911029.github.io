@@ -368,8 +368,58 @@ var skill_set = [
 // portfolio
 
 // work experience
+var experience = [
+    {
+        period: "11/2021 - 04/2023",
+        company: "Squarespace",
+        role: "Web Developer",
+        content: "Wrote code following industry standards and appropriate design patterns for 7 projects \
+            Tested 100% of code and applications using testing techniques such as unit testing and integration testing\
+            Continuously improved and propose new concepts for existing software architecture and 3 new product features\
+            Collaborated with 8 team members to develop, maintain, and improve 20+ web-based applications",
+        visible: true
+    },
+    {
+        period: "04/2019 - 11/2021",
+        company: "Crayon Date Pte Ltd",
+        role: "Web Developer",
+        content: "Assisted in preparing documentation of web page designs for 20+ clients, decreasing time-to-finish by 29%\
+            Performed 60+ studies, analyses, and advisory services, and used research to develop recommendations and proposals\
+            Followed standard industry web development methodologies by adhering to proven design specifications and design techniques\
+            Partnered with product owners and business stakeholders to optimize 30+ application development efforts",
+        visible: true
+    },
+    {
+        period: "10/2016 - 04/2019",
+        company: "Acronis",
+        role: "Junior Web Developer",
+        content: "Designed, coded and modified 20+ enterprise web applications from layout to function, \
+            according to the client's specifications Created 30+ visually appealing sites that featured user-friendly design and clear navigation\
+            Coded, tested, and debugged 37 existing programs and 20+ programs in development\
+            Researched and analyzed 60+ program and systems problems and developed new program documentation to fix them",
+        visible: true
+    },
+    {
+        period: "07/2014 - 10/2016",
+        company: "Technical University of Munich",
+        role: "Researcher",
+        content: "Integrated Stripe API into a Reac progressive web app (PWA) to purchase digital service.\
+            Created 30+ visually appealing sites that featured user-friendly design and clear navigation",
+        visible: true
+    }
+];
 
 // educaiton
+var education = [
+    {
+        period: "10/2010 - 06/2014",
+        university: "Technical University of Munich",
+        degree: "Bachelor of Computer",
+        level: "Bachelor's Degree",
+        content: "In 2014, Awarded a bachelor's degree in Computer Science from the Technical University of Munich.",
+        visible: true
+    }
+];
 
 // reference
 
