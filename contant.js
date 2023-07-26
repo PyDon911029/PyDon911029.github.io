@@ -61,7 +61,7 @@ var basic_info = {
         },
         {
             title: "Address",
-            content: "Hui Zhong Li 309lou 131shi, City Area - Chaoyang District, Beijing, China",
+            content: "TaiYuan China",
             visible: true
         },
         {
